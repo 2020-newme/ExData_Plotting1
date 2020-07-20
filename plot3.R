@@ -16,7 +16,7 @@ loadHpcBase <- function() {
     hpcFull[hpcFull$Date == "1/2/2007" |
               hpcFull$Date == "2/2/2007",]
 }
-#hpcBase <- NULL
+hpcBase <- NULL
 loadHpcBase()
 
 # The base HPC dataset has two separate Date and Time columns, but that's not convenient
